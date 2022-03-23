@@ -1,16 +1,3 @@
 # Wetube Practice
 
-/ -> Home
-/join -> Join
-/login -> Login
-/search -> Search
-
-/users/:id -> See User
-/users/logout -> Log Out
-/users/edit -> Edit My Profile
-/users/delete -> Delete My Profile
-
-/videos/:id -> See Video
-/videos/:id/edit -> Edit Video
-/videos/:id/delete -> Delete Video
-/videos/upload -> Upload Video
+YouTube 클론코딩을 통해 웹 개발의 전반적인 과정을 이해하고, Javascript를 이용하여 프론트/백엔드를 모두 커버하는 방법을 익히고자 만든 레파지토리입니다.
