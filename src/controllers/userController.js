@@ -163,4 +163,14 @@ export const postEdit = async (req, res) => {
     return res.render("edit-profile");
 };
 
+export const getChangePassword = (req, res) => {
+    if (req.session.user.socialOnly) {
+        return res.redirect("/");
+    }
+    return res.render("change-password", {pageTitle: "Change Password"});
+};
+export const postChangePassword = (req, res) => {
+    return res.redirect("/");
+};
+
 export const see = (req, res) => res.send("See User");
