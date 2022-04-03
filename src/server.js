@@ -7,6 +7,7 @@ import globalRouter from "./routers/rootRouter"
 import userRouter from "./routers/userrouter"
 import videoRouter from "./routers/videoRouter"
 import { localsMiddleware } from "./middlewares";
+import apiRouter from "./routers/apiRouter";
 
 
 const app = express();
@@ -30,5 +31,6 @@ app.use("/assets", express.static("assets"));
 app.use("/", globalRouter);
 app.use("/users", userRouter);
 app.use("/videos", videoRouter);
+app.use("/api", apiRouter);
 
 export default app;
