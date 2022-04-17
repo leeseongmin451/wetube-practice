@@ -36,5 +36,20 @@
         background-color: white;
         color: black;
         margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
+}
+
+.delete-comment-btn {
+    width: 20px;
+    height: 20px;
+    padding: 0px 0px;
+    border: none;
+    background-color: white;
 }
