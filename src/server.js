@@ -5,7 +5,7 @@ import flash from "express-flash";
 import MongoStore from "connect-mongo";
 
 import globalRouter from "./routers/rootRouter"
-import userRouter from "./routers/userrouter"
+import userRouter from "./routers/userRouter"
 import videoRouter from "./routers/videoRouter"
 import { localsMiddleware } from "./middlewares";
 import apiRouter from "./routers/apiRouter";
